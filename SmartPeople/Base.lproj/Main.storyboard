@@ -23,7 +23,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="mnL-y3-3Ac" kind="show" id="fbc-Gb-gWZ"/>
+                                    <segue destination="DGz-Hi-Mq1" kind="push" id="Pug-ig-GQ6"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nitesh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q11-jn-ncg">
@@ -47,7 +47,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1036" y="119.1904047976012"/>
+            <point key="canvasLocation" x="1052" y="32"/>
+        </scene>
+        <!--Scene-->
+        <scene sceneID="NIy-tO-7eW">
+            <objects>
+                <viewController id="DGz-Hi-Mq1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ocr-3Q-oZB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_dashboard_scenes" translatesAutoresizingMaskIntoConstraints="NO" id="lh4-XP-Pd4">
+                                <rect key="frame" x="112" y="258.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="riP-QV-Hhr"/>
+                                    <constraint firstAttribute="width" constant="150" id="w2S-pT-08E"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lh4-XP-Pd4" firstAttribute="centerY" secondItem="ocr-3Q-oZB" secondAttribute="centerY" id="h8r-ZG-TmT"/>
+                            <constraint firstItem="lh4-XP-Pd4" firstAttribute="centerX" secondItem="ocr-3Q-oZB" secondAttribute="centerX" id="iaW-I0-GLB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KPt-Jd-p1i"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Scene" id="Umb-oF-dGl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BHF-Ny-Mew" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1375" y="969"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tKl-PJ-GoA">
@@ -62,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zRw-cs-7Ud" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1697" y="114"/>
+            <point key="canvasLocation" x="1730" y="32"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WVT-rU-OUE">
@@ -83,4 +112,7 @@
             <point key="canvasLocation" x="96.799999999999997" y="119.1904047976012"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_dashboard_scenes" width="61" height="61"/>
+    </resources>
 </document>
